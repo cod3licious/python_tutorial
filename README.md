@@ -10,14 +10,14 @@ In any case you should see something like this:
 Start with `1_python_basics.ipynb`, which contains the introductory Python tutorial. Just click on it and a new tab with the notebook should open:
 <img src="doc/screenshot2.png" alt="screenshot_notebook2" width="720"/>
 
-The tutorial is supposed to be interactive, which means you are supposed to execute code yourself and experiment with the given examples to better understand what is going on. To execute a so-called "cell" with code in it, make sure the cell is selected (has a colored boarder around it), and click run (or press "shift"+"enter" on your keyboard). After the cell was successfully executed, the `In [ ]:` next to it will change to something like `In [5]:`.
+The tutorial is interactive, i.e., you are supposed to execute the code yourself and experiment with the given examples to better understand what is going on. To execute a so-called "cell" with code in it, make sure the cell is selected (has a colored border around it), and click run (or press "shift"+"enter" on your keyboard). After the cell was successfully executed, the `In [ ]:` next to it will change to something like `In [5]:`.
 <img src="doc/screenshot3.png" alt="screenshot_notebook3" width="720"/>
 
 Execute all the cells from top to bottom!
 
-After you're done with the tutorial, look at `2_exercises.ipynb`, which contains some exercises that you should complete. The solutions to the exercises can be found in `3_exercise_solutions.ipynb` (but try to solve them yourself first!!).
+After you're done with the tutorial, look at `2_exercises.ipynb`, which contains some exercises that you should complete. The solutions to the exercises can be found in `3_exercise_solutions.ipynb` (but try to first solve them yourself!!).
 
-When you're comfortable with the basics, have a look at `4_numpy_pandas.ipynb`, which gives a quick introduction to the basic data science Python libraries numpy, pandas, and matplotlib. While we will also review these libraries at the beginning of the workshop again, exploring them on your own to get comfortable with these basic operations will really help you when it is time to work on some exercises in the workshop.
+When you're comfortable with the basics, have a look at `4_numpy_pandas.ipynb`, which gives a quick introduction to the basic data science Python libraries numpy, pandas, and matplotlib. While we will also review these libraries at the beginning of the workshop again, exploring them on your own first will really help you when it is time to work on some exercises in the workshop.
 
 If you have any questions, please drop me a line at `franzi[at]datasc.xyz`.
 
