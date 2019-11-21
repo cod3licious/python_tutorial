@@ -1,3 +1,7 @@
 numpy
 matplotlib
 pandas
+scipy
+scikit-learn
+plotly
+python-graphviz
