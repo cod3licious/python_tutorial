@@ -4,4 +4,4 @@ pandas
 scipy
 scikit-learn
 plotly
-python-graphviz
+graphviz
