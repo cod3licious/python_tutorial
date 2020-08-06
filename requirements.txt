@@ -4,4 +4,3 @@ pandas
 scipy
 scikit-learn
 plotly
-graphviz==0.11.*

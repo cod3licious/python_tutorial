@@ -15,7 +15,7 @@ The tutorial is interactive, i.e., you are supposed to execute the code yourself
 
 Execute all the cells from top to bottom!
 
-After you're done with the tutorial, look at `2_exercises.ipynb`, which contains some exercises that you should complete. The solutions to the exercises can be found in `3_exercise_solutions.ipynb` (but try to first solve them yourself!!).
+After you're done with the tutorial, look at `2_exercises.ipynb`, which contains some exercises that you should complete. The solutions to the exercises can be found in `3_exercise_solutions.ipynb` (but try to solve them on your own first!!).
 
 When you're comfortable with the basics, have a look at `4_numpy_pandas.ipynb`, which gives a quick introduction to the basic data science Python libraries numpy, pandas, and matplotlib. These will be especially important for the workshop, so **even if you already feel comfortable with Python, please go over this part of the tutorial anyways!** Exploring these libraries on your own will really help you when it is time to work on the exercises in the workshop.
 
