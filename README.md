@@ -2,7 +2,12 @@
 
 This repository contains Jupyter Notebooks to teach you the basics in Python that you need for the Machine Learning Workshop.
 
-If you already have Jupyter Notebook installed (which you need for the workshop!) you can download the repository (click the green "Clone or download" button at the top and then "Download ZIP"), open Jupyter Notebook on your computer, navigate to the repository folder, and click on one of the notebooks to open it and work with it. If you don't get that to work you can also work in an online version of Jupyter Notebook by following [this link](https://mybinder.org/v2/gh/cod3licious/python_tutorial/master) (right-click to open in a new tab; might take a while to launch).
+**Working on your own computer:**
+If you already have Python and Jupyter Notebook installed (or want to install it, then check out [anaconda](https://docs.anaconda.com/anaconda/install/)) you can download the repository (click the green "Clone or download" button at the top and then "Download ZIP"), open Jupyter Notebook on your computer, navigate to the repository folder, and click on one of the notebooks to open it and work with it. Please make sure you're using Python 3 and all libraries listed in the `requirements.txt` file are installed and up to date (e.g. try `pip install --upgrade plotly`).
+
+**Working online with binder:**
+If you can't or don't want to install Python on your own computer, you can also work in an online version of Jupyter Notebook by following [this link](https://mybinder.org/v2/gh/cod3licious/python_tutorial/master) (right-click to open in a new tab; might take a while to launch).
+
 
 In any case you should see something like this:
 <img src="doc/screenshot1.png" alt="screenshot_notebook1" width="720"/>
