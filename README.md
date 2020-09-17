@@ -1,6 +1,6 @@
 ## Python Tutorial
 
-This repository contains Jupyter Notebooks to teach you the basics in Python that you need for the Machine Learning Workshop. Additionally, you might want to have a look at the [math_basics.pdf] document to refresh your memory on the linear algebra basics required for the course.
+This repository contains Jupyter Notebooks to teach you the basics in Python that you need for the Machine Learning Workshop. Additionally, you might want to have a look at the [math_basics.pdf](https://github.com/cod3licious/python_tutorial/blob/master/math_basics.pdf) document to refresh your memory on the linear algebra basics required for the course.
 
 **Working on your own computer:**
 If you already have Python and Jupyter Notebook installed (or want to install it, then check out [anaconda](https://docs.anaconda.com/anaconda/install/)) you can download the repository (click the green "Code" button at the top and then "Download ZIP"), open Jupyter Notebook on your computer, navigate to the repository folder, and click on one of the notebooks to open it and work with it. Please make sure you're using Python 3 and all libraries listed in the `requirements.txt` file are installed and up to date (e.g. try `pip install --upgrade plotly`).
