@@ -3,9 +3,9 @@
 This repository contains Jupyter Notebooks to teach you the basics in Python that you need for the Machine Learning Workshop. Additionally, you might want to have a look at the [math_basics.pdf](https://github.com/cod3licious/python_tutorial/blob/master/math_basics.pdf) document to refresh your memory on the linear algebra basics required for the course.
 
 **Working on your own computer:**
-If you already have Python and Jupyter Notebook installed (or want to install it, then check out [anaconda](https://docs.anaconda.com/anaconda/install/)) you can download the repository (click the green "Code" button at the top and then "Download ZIP"), open Jupyter Notebook on your computer, navigate to the repository folder, and click on one of the notebooks to open it and work with it. Please make sure you're using Python 3 and all libraries listed in the `requirements.txt` file are installed and up to date (e.g. try `pip install --upgrade plotly`).
+If you already have Python and Jupyter Notebook installed locally (or want to install it, for this check out [anaconda](https://docs.anaconda.com/anaconda/install/) - you might need to consult with your IT department to get the necessary permissions to install it) you can download the repository (click the green "Code" button at the top of the [repository main page](https://github.com/cod3licious/python_tutorial) and then "Download ZIP"), open Jupyter Notebook on your computer, navigate to the repository folder, and click on one of the notebooks to open it and work with it. Please make sure you're using Python 3 and all libraries listed in the `requirements.txt` file are installed and up to date (e.g. try `pip install --upgrade plotly`).
 
-**Working online with binder:**
+**Recommended: Working online with binder:**
 If you can't or don't want to install Python on your own computer, you can also work in an online version of Jupyter Notebook by following [this link](https://mybinder.org/v2/gh/cod3licious/python_tutorial/master) (right-click to open in a new tab; might take a while to launch).
 
 
