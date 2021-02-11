@@ -8,8 +8,12 @@ If you already have Python and Jupyter Notebook installed locally (or want to in
 **Working online with binder:**
 If you can't or don't want to install Python on your own computer, you can also work in an online version of Jupyter Notebook by following [this link](https://mybinder.org/v2/gh/cod3licious/python_tutorial/master) (right-click to open in a new tab; might take a while to launch).
 
+Alternatively, you can also open the notebooks in **Google Colab**, which is faster but requires a Google account:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cod3licious/python_tutorial)
 
-In any case you should see something like this:
+
+
+In any case you should see something similar to this:
 <img src="doc/screenshot1.png" alt="screenshot_notebook1" width="720"/>
 
 Start with `1_python_basics.ipynb`, which contains the introductory Python tutorial. Just click on it and a new tab with the notebook should open:
