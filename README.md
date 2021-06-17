@@ -1,14 +1,15 @@
 ## Python Tutorial
 
-This repository contains Jupyter Notebooks to teach you the basics in Python that you need for the Machine Learning Workshop. Additionally, you might want to have a look at the [math_basics.pdf](https://github.com/cod3licious/python_tutorial/blob/master/math_basics.pdf) document to refresh your memory on the linear algebra basics required for the course.
+This repository contains Jupyter Notebooks to teach you the basics in Python that you need for machine learning (&rarr; [book](https://franziskahorn.de/mlbook/ml4industry_guide.html) and [exercises](https://github.com/cod3licious/ml_exercises)). Additionally, you might want to have a look at the [math_basics.pdf](https://github.com/cod3licious/python_tutorial/blob/master/math_basics.pdf) document to refresh your memory on the linear algebra basics, which will also come in very handy.
 
 **Working on your own computer:**
-If you already have Python and Jupyter Notebook installed locally (or want to install it, for this check out [anaconda](https://docs.anaconda.com/anaconda/install/) (and possibly consult with your IT department to get the necessary permissions to install it)) you can download the repository (click the green "Code" button at the top of the [repository main page](https://github.com/cod3licious/python_tutorial) and then "Download ZIP"), open Jupyter Notebook on your computer, navigate to the repository folder, and click on one of the notebooks to open it and work with it. Please make sure you're using Python 3 and all libraries listed in the `requirements.txt` file are installed and up to date (you can also verify this with the `text_installation.ipynb` notebook).
+If you already have Python and Jupyter Notebook installed locally, you can download the repository (click the green "Code" button at the top of the [repository main page](https://github.com/cod3licious/python_tutorial) and then "Download ZIP"), open Jupyter Notebook on your computer, navigate to the repository folder, and click on one of the notebooks to open it and work with it. <br>
+To install Python for personal use, [anaconda](https://docs.anaconda.com/anaconda/install/) is a good option, as it already comes with most of the needed libraries. But you can also install [Python](https://www.python.org/downloads/) and [Jupyter Notebook](https://jupyter.org/install) directly and then install the needed libraries with the Python package manager [pip](https://pip.pypa.io/en/stable/installing/). If you're using a company computer, please consult with your IT department. In any case, make sure you're using Python 3 and all libraries listed in the `requirements.txt` file are installed and up to date (you can also verify this with the `test_installation.ipynb` notebook).
 
-**Working online with binder:**
+**Working in the cloud:**
 If you can't or don't want to install Python on your own computer, you can also work in an online version of Jupyter Notebook by following [this link](https://mybinder.org/v2/gh/cod3licious/python_tutorial/master) (right-click to open in a new tab; might take a while to launch).
 
-Alternatively, you can also open the notebooks in **Google Colab**, which is faster but requires a Google account:
+Alternatively, you can also open the notebooks in **Google Colab** (recommended), which is faster, but requires a Google account:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cod3licious/python_tutorial)
 
 
@@ -26,8 +27,8 @@ Execute all the cells from top to bottom!
 
 After you're done with the tutorial, look at `2_exercises.ipynb`, which contains some exercises that you should complete. The solutions to the exercises can be found in `3_exercise_solutions.ipynb` (but try to solve them on your own first!!).
 
-When you're comfortable with the basics, have a look at `4_numpy_pandas.ipynb`, which gives a quick introduction to the basic data science Python libraries numpy, pandas, and matplotlib. These will be especially important for the workshop, so **even if you already feel comfortable with Python, please go over this part of the tutorial anyways!** Exploring these libraries on your own will really help you when it is time to work on the exercises in the workshop.
+When you're comfortable with the basics, have a look at `4_numpy_pandas.ipynb`, which gives a quick introduction to the basic data science Python libraries numpy, pandas, and matplotlib. These will be especially important to solve the exercises, so **even if you already feel comfortable with Python, please go over this part of the tutorial anyways!**
 
-If you have any questions, please drop me a line at `franzi[at]datasc.xyz`.
+If you have any questions, please drop me a line at `hey[at]franziskahorn.de`.
 
-See you at the workshop!
+Have fun!
