@@ -12,7 +12,7 @@ Alternatively, you can also open the notebooks in **Google Colab** (recommended)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cod3licious/python_tutorial)
 
 
-#### Getting started
+### Getting started
 When starting Jupyter Notebook, you should see something similar to this (on your local computer you might need to navigate to the right folder first):
 
 <img src="doc/screenshot1.png" alt="screenshot_notebook1" width="720"/>
