@@ -12,8 +12,8 @@ Alternatively, you can also open the notebooks in **Google Colab** (recommended)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cod3licious/python_tutorial)
 
 
-
-In any case you should see something similar to this (on your local computer you might need to navigate to the right folder first):
+#### Getting started
+When starting Jupyter Notebook, you should see something similar to this (on your local computer you might need to navigate to the right folder first):
 
 <img src="doc/screenshot1.png" alt="screenshot_notebook1" width="720"/>
 
@@ -27,10 +27,10 @@ The tutorial is interactive, i.e., you are supposed to execute the code yourself
 
 Execute all the cells from top to bottom!
 
-After you're done with the tutorial, look at `2_exercises.ipynb`, which contains some exercises that you should complete. The solutions to the exercises can be found in `3_exercise_solutions.ipynb` (but try to solve them on your own first!!).
+After you're done with the first notebook, look at `2_exercises.ipynb`, which contains some exercises that you should complete. The solutions to these exercises can be found in `3_exercise_solutions.ipynb` (but try to solve them on your own first!!).
 
 When you're comfortable with the basics, have a look at `4_numpy_pandas.ipynb`, which gives a quick introduction to the basic data science Python libraries numpy, pandas, and matplotlib. These will be especially important to solve the exercises, so **even if you already feel comfortable with Python, please go over this part of the tutorial anyways!**
 
-If you have any questions, please drop me a line at `hey[at]franziskahorn.de`.
+If you have any questions, please send me an [email](mailto:hey@franziskahorn.de).
 
 Have fun!
