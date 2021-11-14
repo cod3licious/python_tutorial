@@ -1,6 +1,6 @@
 ## Python Tutorial
 
-This repository contains Jupyter Notebooks to teach you the basics in Python that you need for my machine learning course (&rarr; [book](https://franziskahorn.de/mlbook/) and [exercises](https://github.com/cod3licious/ml_exercises)). Additionally, you might want to have a look at the [math_basics.pdf](https://github.com/cod3licious/python_tutorial/blob/master/math_basics.pdf) document to refresh your memory on the linear algebra basics, which will also come in very handy.
+This repository contains Jupyter Notebooks to teach you the basics in Python that you need for my machine learning course (&rarr; [book](https://franziskahorn.de/mlbook/) and [exercises](https://github.com/cod3licious/ml_exercises)). Additionally, you might want to refresh your memory on the [linear algebra basics](https://franziskahorn.de/mlws_resources//math_basics.pdf), which will also come in very handy.
 
 **Working on your own computer:** <br>
 If you already have Python and Jupyter Notebook installed locally, you can download the repository (click the green "Code" button at the top of the [repository main page](https://github.com/cod3licious/python_tutorial) and then "Download ZIP"), open Jupyter Notebook on your computer, navigate to the repository folder, and click on one of the notebooks to open it and work with it. <br>
