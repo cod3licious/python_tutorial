@@ -1,19 +1,29 @@
 ## Python Tutorial
 
-This repository contains Jupyter Notebooks to teach you the basics in Python that you need for my machine learning course (&rarr; [book](https://franziskahorn.de/mlbook/) and [exercises](https://github.com/cod3licious/ml_exercises)). Additionally, you might want to refresh your memory on the [linear algebra basics](https://franziskahorn.de/mlws_resources//math_basics.pdf), which will also come in very handy.
+This repository contains Jupyter Notebooks to teach you the basics in Python that you need for my machine learning course (&rarr; [book](https://franziskahorn.de/mlbook/) and [exercises](https://github.com/cod3licious/ml_exercises)). Additionally, you might want to refresh your memory on the [linear algebra basics](https://franziskahorn.de/mlws_resources/math_basics.pdf), which will also come in very handy.
 
-**Working on your own computer:** <br>
-If you already have Python and Jupyter Notebook installed locally, you can download the repository (click the green "Code" button at the top of the [repository main page](https://github.com/cod3licious/python_tutorial) and then "Download ZIP"), open Jupyter Notebook on your computer, navigate to the repository folder, and click on one of the notebooks to open it and work with it. <br>
-To install Python for personal use, [anaconda](https://docs.anaconda.com/anaconda/install/) is a good option, as it already comes with most of the needed libraries. If this is not an option for you due to the licensing restrictions, [mini-forge](https://github.com/conda-forge/miniforge), basically a smaller community version of anaconda, might be a better solution for you. (If for whatever reason this also doesn't work for you, you can also install [Python](https://www.python.org/downloads/) and [Jupyter Notebook](https://jupyter.org/install) directly.) The needed libraries can then be installed with the Python package manager [pip](https://pip.pypa.io/en/stable/installing/). If you're using a company computer, please consult with your IT department. In any case, make sure you're using Python 3 and all libraries listed in the `requirements.txt` file are installed and up to date.
+### Using Python
 
-**Working in the cloud:** <br>
-If you can't or don't want to install Python on your own computer, you can also work in an online version of Jupyter Notebook by following [this link](https://mybinder.org/v2/gh/cod3licious/python_tutorial/master) (right-click to open in a new tab; might take a while to launch). <br>
-Alternatively, you can also open the notebooks in **Google Colab** (recommended), which is faster, but requires a Google account:
+This tutorial requires a recent Python installation (version 3.8 or later) together with Jupyter Notebook and the libraries listed in `requirements.txt`. You can either install these locally on your own machine or work in a preconfigured cloud environment. <br>
+If you're using a company computer, please consult with your IT department.
+
+#### Working on your own computer
+- Download the contents of this repository (by clicking the green "Code" button at the top and then "Download ZIP").
+- Install Python either directly from the [official website](https://www.python.org/downloads/) or using [pyenv](https://github.com/pyenv/pyenv) in case you need to manage multiple Python version in parallel on your machine. A recent version (Python 3.10 or later) is recommended.
+- Install the required dependencies (i.e., additional libraries like `numpy`):
+    - Option 1: Global installation using the Python package manager [pip](https://pip.pypa.io/en/stable/getting-started/), e.g., by calling `pip install -r requirements.txt` from a terminal in the repository folder to install all dependencies listed in the `requirements.txt` document.
+    - Option 2: Installation in an isolated virtual environment using [poetry](https://python-poetry.org/docs/) (recommended): Install `poetry` itself with `pip install poetry` and then call `poetry install` to install the dependencies from the `pyproject.toml` or `poetry.lock` file and activate the virtual environment with `poetry shell`.
+- In either case should now have [Jupyter Notebook](https://docs.jupyter.org/en/latest/) installed, which you can open from the terminal with `jupyter notebook`, which should then open in the browser. Navigate to the repository folder and click on the first notebook to get started.
+
+
+#### Working in the cloud
+If you can't or don't want to install Python on your own computer, you can also work in an online version of Jupyter Notebook powered by MyBinder by clicking here: [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cod3licious/python_tutorial/main) (right-click to open in a new tab; might take a while to launch). <br>
+Alternatively, you can also open the notebooks in **Google Colab**, which is faster, but requires a Google account:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cod3licious/python_tutorial)
 
 
 ### Getting started
-When starting Jupyter Notebook, you should see something similar to this (on your local computer you might need to navigate to the right folder first):
+When starting Jupyter Notebook, you should see something similar to this (on your local computer you might need to navigate to the correct folder first):
 
 <img src="doc/screenshot1.png" alt="screenshot_notebook1" width="720"/>
 
@@ -21,7 +31,7 @@ Start with `1_python_basics.ipynb`, which contains the introductory Python tutor
 
 <img src="doc/screenshot2.png" alt="screenshot_notebook2" width="720"/>
 
-The tutorial is interactive, i.e., you are supposed to execute the code yourself and experiment with the given examples to better understand what is going on. To execute a so-called "cell" with code in it, make sure the cell is selected (has a colored border around it), and click run (or press "shift"+"enter" on your keyboard). After the cell was successfully executed, the `In [ ]:` next to it will change to something like `In [5]:`.
+The tutorial is interactive, i.e., you are supposed to execute the code yourself and experiment with the given examples to better understand what is going on. To execute a so-called "cell" with code in it, make sure the cell is selected (has a colored border around it), and click the "run" button (or press "shift"+"enter" on your keyboard). After the cell was successfully executed, the `In [ ]:` next to it will change to something like `In [5]:`.
 
 <img src="doc/screenshot3.png" alt="screenshot_notebook3" width="720"/>
 
@@ -29,7 +39,7 @@ Execute all the cells from top to bottom!
 
 After you're done with the first notebook, look at `2_exercises.ipynb`, which contains some exercises that you should complete. The solutions to these exercises can be found in `3_exercise_solutions.ipynb` (but try to solve them on your own first!!).
 
-When you're comfortable with the basics, have a look at `4_numpy_pandas.ipynb`, which gives a quick introduction to the basic data science Python libraries numpy, pandas, and matplotlib. These will be especially important to solve the exercises, so **even if you already feel comfortable with Python, please go over this part of the tutorial anyways!**
+When you're comfortable with the basics, have a look at `4_numpy_pandas.ipynb`, which gives a quick introduction to the basic data science Python libraries numpy, pandas, and matplotlib. These will be especially important to solve the exercises, so **even if you already feel comfortable with Python, please work through this part of the tutorial anyways!**
 
 If you have any questions, please send me an [email](mailto:hey@franziskahorn.de).
 
