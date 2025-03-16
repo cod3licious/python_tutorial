@@ -2,6 +2,8 @@
 
 This repository contains Jupyter Notebooks to teach you the basics in Python that you need for my machine learning course (&rarr; [book](https://franziskahorn.de/mlbook/) and [exercises](https://github.com/cod3licious/ml_exercises)). Additionally, you might want to refresh your memory on the [linear algebra basics](https://franziskahorn.de/mlws_resources/math_basics.pdf), which will also come in very handy.
 
+If you want to learn more about software development best practices, have a look at my other book: [Research Software Engineering: A Primer](https://franziskahorn.de/rsebook/). Chapter 3 on Tools also contains more information on how to set up your development environment.
+
 ### Using Python
 
 This tutorial requires a recent Python installation (version 3.8 or later) together with Jupyter Notebook and the libraries listed in `requirements.txt`. You can either install these locally on your own machine or work in a preconfigured cloud environment. <br>
@@ -9,10 +11,10 @@ If you're using a company computer, please consult with your IT department.
 
 #### Working on your own computer
 - Download the contents of this repository (by clicking the green "Code" button at the top and then "Download ZIP").
-- Install Python either directly from the [official website](https://www.python.org/downloads/) or using [pyenv](https://github.com/pyenv/pyenv) in case you need to manage multiple Python version in parallel on your machine. A recent version (Python 3.10 or later) is recommended.
+- Install Python either directly from the [official website](https://www.python.org/downloads/) or using [uv](https://docs.astral.sh/uv/guides/install-python/) (recommended) in case you need to manage multiple Python version in parallel on your machine. A recent version (Python 3.10 or later) is recommended.
 - Install the required dependencies (i.e., additional libraries like `numpy`):
     - Option 1: Global installation using the Python package manager [pip](https://pip.pypa.io/en/stable/getting-started/), e.g., by calling `pip install -r requirements.txt` from a terminal in the repository folder to install all dependencies listed in the `requirements.txt` document.
-    - Option 2: Installation in an isolated virtual environment using [poetry](https://python-poetry.org/docs/) (recommended): Install `poetry` itself with `pip install poetry` and then call `poetry install` to install the dependencies from the `pyproject.toml` or `poetry.lock` file and activate the virtual environment with `poetry shell`.
+    - Option 2 (recommended): Installation in an isolated virtual environment using [uv](https://docs.astral.sh/uv/): Install `uv` itself (see [here](https://docs.astral.sh/uv/getting-started/installation/)) and then call `uv sync` to install the dependencies from the `pyproject.toml` or `uv.lock` file and activate the virtual environment with `source .venv/bin/activate`.
 - In either case should now have [Jupyter Notebook](https://docs.jupyter.org/en/latest/) installed, which you can open from the terminal with `jupyter notebook`, which should then open in the browser. Navigate to the repository folder and click on the first notebook to get started.
 
 
@@ -37,7 +39,7 @@ The tutorial is interactive, i.e., you are supposed to execute the code yourself
 
 Execute all the cells from top to bottom!
 
-After you're done with the first notebook, look at `2_exercises.ipynb`, which contains some exercises that you should complete. The solutions to these exercises can be found in `3_exercise_solutions.ipynb` (but try to solve them on your own first!!).
+After you're done with the first notebook, look at `2_exercises.ipynb`, which contains some exercises that you should complete. The solutions to these exercises can be found in `3_exercise_solutions.ipynb` (but try to solve them on your own first!).
 
 When you're comfortable with the basics, have a look at `4_numpy_pandas.ipynb`, which gives a quick introduction to the basic data science Python libraries numpy, pandas, and matplotlib. These will be especially important to solve the exercises, so **even if you already feel comfortable with Python, please work through this part of the tutorial anyways!**
 
