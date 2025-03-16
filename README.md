@@ -37,7 +37,7 @@ The tutorial is interactive, i.e., you are supposed to execute the code yourself
 
 <img src="doc/screenshot3.png" alt="screenshot_notebook3" width="720"/>
 
-Execute all the cells from top to bottom!
+Go through all the cells from top to bottom, execute them and make sure you understand what happens!
 
 After you're done with the first notebook, look at `2_exercises.ipynb`, which contains some exercises that you should complete. The solutions to these exercises can be found in `3_exercise_solutions.ipynb` (but try to solve them on your own first!).
 
