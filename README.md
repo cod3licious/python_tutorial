@@ -2,7 +2,7 @@
 
 This repository contains Jupyter Notebooks to teach you the basics in Python that you need for my machine learning course (&rarr; [book](https://franziskahorn.de/mlbook/) and [exercises](https://github.com/cod3licious/ml_exercises)). Additionally, you might want to refresh your memory on the [linear algebra basics](https://franziskahorn.de/mlws_resources/math_basics.pdf), which will also come in very handy.
 
-If you want to learn more about software development best practices, have a look at my other book: [Research Software Engineering: A Primer](https://franziskahorn.de/rsebook/). The chapter on Tools contains more information on how to set up your development environment.
+If you want to learn more about software development best practices, have a look at my other book: [Clarity-Driven Development of Scientific Software](https://franziskahorn.de/rsebook/). The chapter on Tools contains more information on how to set up your development environment.
 
 ### Using Python
 
